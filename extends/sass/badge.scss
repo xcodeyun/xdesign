@@ -1,0 +1,10 @@
+@import "./color.scss";
+x-badge{
+  display: inline;
+  padding: 2.5px 5px;
+  color: #FFFFFF;
+  background-color: $gray;
+  border-radius: 6px;
+  font-weight: bold;
+  box-sizing: border-box;
+}

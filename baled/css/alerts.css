@@ -1,0 +1,9 @@
+x-alerts {
+  border-radius: 6px;
+  color: #007bff;
+  background-color: #70b5ff;
+  border: 1px solid #61adff;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center; }

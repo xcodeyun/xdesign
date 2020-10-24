@@ -1,0 +1,8 @@
+x-badge {
+  display: inline;
+  padding: 2.5px 5px;
+  color: #FFFFFF;
+  background-color: #6c757d;
+  border-radius: 6px;
+  font-weight: bold;
+  box-sizing: border-box; }

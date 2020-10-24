@@ -1,0 +1,11 @@
+@import "./color.scss";
+x-alerts{
+  border-radius: 6px;
+  color: $blue;
+  background-color: lighten($blue, 22%);
+  border: 1px solid darken(lighten($blue, 22%), 3%);
+  box-sizing: border-box;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}

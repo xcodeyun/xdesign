@@ -1,0 +1,29 @@
+@import "./color.scss";
+x-breadcrumb{
+  height: 40px;
+  border-radius: 6px;
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+x-breadcrumb li{
+  color: $primary;
+  margin-left: 10px;
+  list-style: none;
+}
+x-breadcrumb li:first-child::before{
+  content: none;
+  display: none;
+  width: 0;height: 0;
+}
+x-breadcrumb li::before{
+  content: "/";
+  display: inline;
+  margin-right: 10px;
+  color: $secondary;
+}
+x-breadcrumb li:last-child{
+  color: $secondary;
+}

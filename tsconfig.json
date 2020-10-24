@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "allowJs": true,
+    "sourceMap": false,
+    "outDir": "./baled/js",
+    "noImplicitReturns": false,
+    "allowUnreachableCode": false
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "./extends/ts/*.ts"
+  ]
+}
